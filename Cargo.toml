@@ -8,5 +8,5 @@ minifb = "0.10"
 rand = "0.3.14"
 time = "0.1.34"
 
-[target.'cfg(not(target_os = "redox"))'.dependencies]
-sdl2 = "0.25.0"
+#[target.'cfg(not(target_os = "redox"))'.dependencies]
+#sdl2 = "0.25.0"
